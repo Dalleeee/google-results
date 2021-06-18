@@ -1,0 +1,168 @@
+.logo {
+    position: absolute;
+    left: 25px;
+    top: 35px;
+}
+
+#logo {
+    height: 30px;
+    width: 92px;
+}
+
+#logo:hover {
+    cursor: pointer;
+}
+
+.search {
+    position: absolute;
+    top: 10px;
+    left: 90px;
+    width: 650px;
+    height: 45px;
+    border-color: lightgray;
+    border-top: lightgray;
+    border-left: lightgray;
+    border-radius: 35px;
+}
+
+.top-right {
+    display: grid;
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.gmail {
+    border-radius: 50%;
+    background-color: white;
+}
+
+.bottom-nav {
+    height: 35px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    width: 50%;
+    position: absolute;
+    top: 90px;
+    left: 180px;
+    background-color: white;
+}
+
+.all {
+    background-color: white;
+}
+
+.videos {
+    background-color: white;
+}
+
+.news {
+    background-color: white;
+}
+
+.images {
+    background-color: white;
+}
+
+.maps {
+    background-color: white;
+}
+
+.more {
+    background-color: white;
+}
+
+.settings {
+    background-color: white;
+}
+
+.tools {
+    background-color: white;
+}
+
+.all:active {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    color: blue;
+}
+
+.videos:active {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    color: blue;
+}
+
+.news:active {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    color: blue;
+}
+
+.images:active {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    color: blue;
+}
+
+.maps:active {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    color: blue;
+}
+
+.more:active {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    color: blue;
+}
+
+.settings:active {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    color: blue;
+}
+
+.tools:active {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    color: blue;
+}
+
+hr {
+    position: relative;
+    top: 115px;
+    border: 0.5px solid lightgray;
+}
+
+.number {
+    position: absolute;
+    left: 180px;
+    top: 140px;
+}
+
+.search-results {
+    display: grid;
+    grid-template-columns: 1;
+    grid-gap: 1em;
+    position: absolute;
+    left: 180px;
+    top: 180px;
+}
+
+a {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    position: relative;
+    top: 1px;
+}
+
+button {
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
